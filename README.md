@@ -1,7 +1,7 @@
 ## Phoenix Stenotype
 
-The default stenotype system of Plover translates words like `KATD` as **catted** when it shouldn't translate at all.
+The default stenotype system in Plover translates words like `KATD` as *catted* when it shouldn't translate at all.
 
-In contrast, the `plover_minimal_english_stenotype` plugin doesn't translate words like **cladded** properly. It mistranslates as **claded** instead.
+Of course you can just use `plover-minimal-english-stenotype`, but this plugin includes certain orthography rules that are compatible with the Phoenix dictionary for convenience.
 
-This plugin aims to fix those problems.
+ This plugin allows you to type words like *embiggening* (automatically doubling the letter g) without defining a new dictionary entry, for example. It also enables you to write words like *ladies* and *occurred* in three separate strokes—If you decide to do that for some reason.
